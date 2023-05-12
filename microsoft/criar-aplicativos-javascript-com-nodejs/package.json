@@ -1,0 +1,24 @@
+{
+  "name": "criar-aplicativos-javascript-com-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest",
+    "test:dev": "jest --watchAll"
+  },
+  "keywords": [
+    "api",
+    "express"
+  ],
+  "author": "Davison Alves da Silva",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
