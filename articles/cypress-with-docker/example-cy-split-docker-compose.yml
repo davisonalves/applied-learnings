@@ -1,0 +1,21 @@
+services:
+  cypress-job1:
+    image: cypress/included:12.12.0
+    command: "npx cypress run --env split=3,splitIndex=0"
+    working_dir: /cypress
+    volumes:
+      - ./:/cypress
+
+  cypress-job2:
+    image: cypress/included:12.12.0
+    command: "npx cypress run --env split=3,splitIndex=1"
+    working_dir: /cypress
+    volumes:
+      - ./:/cypress
+
+  cypress-job3:
+    image: cypress/included:12.12.0
+    command: "npx cypress run --env split=3,splitIndex=2"
+    working_dir: /cypress
+    volumes:
+      - ./:/cypress
