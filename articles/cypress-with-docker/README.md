@@ -48,6 +48,10 @@ Se deseja rodar os testes em paralelo, utilizando o cypress-split, siga os passo
 1. Renomeie o arquivo "example-cy-split-docker-compose.yml" para "docker-compose.yml"
 2. Em seu terminal execute `docker compose up`
 
+![Ganho de Performance](https://github.com/davisonalves/applied-learnings/assets/53572219/87c6978d-a5e4-4be8-ae66-e7f6c0e34960)
+*Ganho de performance com paralelização (lado esquerdo) vs. execução não paralela (lado direito).*
+
+
 ## Referências
 
 Esse repositório foi inspirado nas referencias abaixo, consulte para aprender mais!
